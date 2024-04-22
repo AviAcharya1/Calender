@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calender</title>
+</head>
+<body>
+    <div class="calender">
+        <h1 class="head">CALENDER</h1>
+        <div class="month">
+            <div class="month-nav">
+                <button id="prevMonth">&laquo;</button>
+                <div class="show">
+                    <h1 id="month"></h1>
+                    <p id="date"></p>
+                </div>
+                <button id="nextMonth">&raquo;</button>
+            </div>
+        </div>
+        <div class="week">
+            <div class="weekdays">
+                <div class="wday">SUN</div>
+                <div class="wday">MON</div>
+                <div class="wday">TUE</div>
+                <div class="wday">WED</div>
+                <div class="wday">THU</div>
+                <div class="wday">FRI</div>
+                <div class="wday">SAT</div>
+            </div>
+            <div id="days" class="days"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
